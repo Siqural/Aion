@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Gameforge Aion Veteran Rewards HelperL",
+  "version": "0.1.0",
+  "description": "Improves layout and sorting for veteran rewards",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.js","scripts.js"],
+    "matches": ["https://en.aion.gameforge.com/shop/userdata/*","https://de.aion.gameforge.com/shop/userdata/*","https://fr.aion.gameforge.com/shop/userdata/*"]
+  }],
+  "web_accessible_resources": [ "styles.css"	],
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "activeTab"
+  ]
+}
