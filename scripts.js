@@ -1,6 +1,6 @@
 $('#content-frame').on('load',function(){
     $('iframe').contents().find("head")
-    .append($("<style type='text/css'>#vault-page .item-info .info-text,#vault-page li{height:60px!important;overflow:hidden!important}#vault-page li{margin:2px!important;padding:0!important;border:2px solid #666!important}#vault-page .item-info{height:60px!important}#vault-page .item{height:60px!important;padding-top:10px!important}#vault-page .bonus_item_img{background:0 0!important;height:50px!important;margin:0!important;width:60px!important}#vault-page .bonus_item_img div{overflow:unset!important;margin:5px!important}#vault-page .bonus_item_img div img{height:60px!important;width:60px!important;position:relative!important}#vault-page .item.standard>label{display:none!important}</style>"));
+    .append($("<style type='text/css'>#vault-page .item-info .info-text,#vault-page li{height:50px!important;overflow:hidden!important}#vault-page li{margin:2px!important;padding:0!important;border:1px solid #666!important}#vault-page .item-info{height:50px!important}#vault-page .item{height:50px!important;padding-top:10px!important}#vault-page .bonus_item_img{background:0 0!important;height:50px!important;margin:0!important;width:60px!important}#vault-page .bonus_item_img div{overflow:unset!important;margin:5px!important}#vault-page .bonus_item_img div img{height:60px!important;width:60px!important;position:relative!important}#vault-page .item.standard>label{display:none!important}</style>"));
 
 
     
