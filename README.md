@@ -1,2 +1,2 @@
-# aion-vetrewardchromeextension
-Aion Chrome Extension for Gameforge Veteran Rewards
+# Aion-Veteran-Rewards
+Veteran Rewards Sorting.
