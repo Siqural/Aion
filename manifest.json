@@ -7,7 +7,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["jquery.js","scripts.js"],
-    "matches": ["https://de.aion.gameforge.com/shop/userdata/*","https://en.aion.gameforge.com/shop/userdata/*","https://fr.aion.gameforge.com/shop/userdata/*","https://pl.aion.gameforge.com/shop/userdata/*]
+    "matches": ["https://de.aion.gameforge.com/shop/userdata/*","https://en.aion.gameforge.com/shop/userdata/*","https://fr.aion.gameforge.com/shop/userdata/*","https://pl.aion.gameforge.com/shop/userdata/*"]
   }],
   "web_accessible_resources": [ "styles.css"	],
   "permissions": [
