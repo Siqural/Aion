@@ -3,6 +3,7 @@
  
   "name": "Veteran Rewards Sort.",
   "version": "1.0.0",
+  "developer": "Siqural",
   "description": "Sort VR.",
   "content_scripts": [{
     "css": ["styles.css"],
